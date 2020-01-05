@@ -13,4 +13,7 @@ class Backer
     @backed_projects[-1].add_backer(self)
     # binding.pry
   end
+  def associate(project)
+        @backed_projects << project
+  end
 end
